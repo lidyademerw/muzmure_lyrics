@@ -11,7 +11,7 @@ text-align: 220px;
 h3{ animation-duration: 3s; /* Time for one cycle */
 animation-name: h3; 
 animation-iteration-count: 1;
-animation-direction: left;
+animation-direction: left; 
 }
 
 @keyframes h3{
@@ -23,6 +23,7 @@ animation-direction: left;
 .selbut{
     display: flex;
     size: 90px;
+    margin-bottom: auto;
     
 }
 #im1{
@@ -45,28 +46,34 @@ pre{
     font-size:1.5em;
     text-align: left;
 }
-button{
-    font-size: 1em;
-    color: #fcfdfd;
-    text-decoration:none;
-    display:inline-block;
-    text-align: center;
-    margin-top: 50px;
-    margin:none;
-     background: tomato;
-     border: 5px dash white;
-   
-}
-#sel1{
-    width: 200px;
-    height: 50px;
 
+#sel1{
+    width: 250px;
+  height: 50px;
+  position: relative; bottom: 40px; left: 200px; 
+  color: rgb(21, 55, 247);
+  position: relative;z-index: 2;
+  padding: 10px 20px;
 
 }
 body{
     background-color: rgb(243, 226, 226);
 }
-footer{
-    background-color: rgb(243, 170, 13);
+.footer{
+  background:rgb(236, 190, 91);
+  
 
 }
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+  }
+
+  .btn:hover {
+    background: #cc0000;
+  }
