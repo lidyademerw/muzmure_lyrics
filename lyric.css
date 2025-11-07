@@ -1,20 +1,18 @@
 header{
 text-align: center;
 color:rgb(247, 224, 21);
-font-size: 55px;
+font-size: 45px;
 background-image:url(image/lily.jpg);
 margin: none;
 text-decoration: double;
-text-shadow: 30px 5px 10px orange,10px 5px 10px orangered;
+text-shadow: 30px 5px 10px rgb(157, 183, 42),10px 5px 10px rgb(234, 101, 52);
 text-align: 220px;
 }
-h3{ animation-duration: 3s; /* Time for one cycle */
-animation-name: h3; 
-animation-iteration-count: 1;
-animation-direction: left; 
+h3{ animation:movetocenter 2s forwards;
+
 }
 
-@keyframes h3{
+@keyframes movetocenter{
     0% { transform: translateX(-25%); /* Start from the left */
             }
     100% { transform: translateX(25%); /* Move to the right */
@@ -61,8 +59,6 @@ body{
 }
 .footer{
   background:rgb(236, 190, 91);
-  
-
 }
 .btn {
     display: inline-block;
@@ -70,7 +66,7 @@ body{
     background: #ff0000;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius:5px;
     font-family: sans-serif;
   }
 
