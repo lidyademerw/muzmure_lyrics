@@ -1,4 +1,4 @@
-header{
+/*header{
 text-align: center;
 color:rgb(247, 224, 21);
 font-size: 45px;
@@ -10,15 +10,14 @@ text-align: 220px;
 }
 h3{ animation:movetocenter 2s forwards;
 
-}
+}*/
 
-@keyframes movetocenter{
+/*@keyframes movetocenter{
     0% { transform: translateX(-25%); /* Start from the left */
-            }
-    100% { transform: translateX(25%); /* Move to the right */
-            }
-}
-.selbut{
+            
+    /*100% { transform: translateX(25%); /* Move to the right */
+            
+/*.selbut{
     display: flex;
     size: 90px;
     margin-bottom: auto;
@@ -72,4 +71,4 @@ body{
 
   .btn:hover {
     background: #cc0000;
-  }
+  }*/
